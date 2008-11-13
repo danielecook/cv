@@ -1,0 +1,19 @@
+---
+work:
+  websites:
+    - desc: Website for gaming clan
+      url: thyrasol.de
+      details: >
+        My first website created with XHTML and iFrames for
+        embedding an external guestbook.
+skills:
+  webdesign:
+    score: 1
+technologies:
+  html:
+    score: 1
+  css:
+    score: 1
+interests:
+  web:
+    score: 4
