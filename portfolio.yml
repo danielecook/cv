@@ -6,6 +6,9 @@ work:
       details: >
         My first website created with XHTML and iFrames for
         embedding an external guestbook.
+  software:
+    - desc: MMORPG fishing bot
+      details: My first program created using the BASIC-like AutoItScript
 skills:
   webdesign:
     score: 1
