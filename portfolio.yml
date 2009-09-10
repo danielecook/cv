@@ -6,17 +6,25 @@ work:
       details: >
         My first website created with XHTML and iFrames for
         embedding an external guestbook.
+    - desc: Fan website for energy drink
+      details: >
+        Created website dedicated to the iconic M-Budget energy drink.
+        Used ASP.NET with HTML and CSS.
   software:
     - desc: MMORPG fishing bot
       details: My first program created using the BASIC-like AutoItScript
 skills:
   webdesign:
-    score: 1
+    score: 2
 technologies:
   html:
-    score: 1
+    score: 2
   css:
+    score: 2
+  asp.net:
+    score: 1
+  c\#:
     score: 1
 interests:
   web:
-    score: 4
+    score: 5
