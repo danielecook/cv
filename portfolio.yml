@@ -10,21 +10,30 @@ work:
       details: >
         Created website dedicated to the iconic M-Budget energy drink.
         Used ASP.NET with HTML and CSS.
+    - desc: Small development tasks for webshop
+      url: shop.althaus.ch
+      details: >
+        First work on a commercial project. Completed various small tasks
+        including contact formular that sent email.
   software:
     - desc: MMORPG fishing bot
       details: My first program created using the BASIC-like AutoItScript
 skills:
   webdesign:
     score: 2
+  webapplications:
+    score: 1
 technologies:
   html:
     score: 2
   css:
     score: 2
   asp.net:
-    score: 1
+    score: 2
   c\#:
     score: 1
 interests:
   web:
     score: 5
+  email:
+    score: 1
