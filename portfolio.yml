@@ -15,6 +15,11 @@ work:
       details: >
         First work on a commercial project. Completed various small tasks
         including contact formular that sent email.
+    - desc: Small development tasks for webshop
+      url: swan.ch
+      details: >
+        Worked on application forms with ASP.NET and file uploads
+        for documents that were saved to a MSSQL backend.
   software:
     - desc: MMORPG fishing bot
       details: My first program created using the BASIC-like AutoItScript
@@ -22,15 +27,17 @@ skills:
   webdesign:
     score: 2
   webapplications:
-    score: 1
+    score: 2
 technologies:
   html:
-    score: 2
+    score: 3
   css:
     score: 2
   asp.net:
     score: 2
   c\#:
+    score: 2
+  mssql:
     score: 1
 interests:
   web:
