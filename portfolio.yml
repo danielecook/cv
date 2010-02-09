@@ -23,6 +23,10 @@ work:
   software:
     - desc: MMORPG fishing bot
       details: My first program created using the BASIC-like AutoItScript
+    - desc: Vocabulary Trainer
+      details: >
+        Implemented a WinForms based vocabulary trainer with MSSQL backend
+        and custom word learning algorithm.
 skills:
   webdesign:
     score: 2
@@ -36,8 +40,10 @@ technologies:
   asp.net:
     score: 2
   c\#:
-    score: 2
+    score: 3
   mssql:
+    score: 2
+  winforms:
     score: 1
 interests:
   web:
