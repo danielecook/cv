@@ -27,11 +27,17 @@ work:
       details: >
         Implemented a WinForms based vocabulary trainer with MSSQL backend
         and custom word learning algorithm.
+    - desc: Flashcard Maker
+      details: >
+        Implemented small program that prints a PDF (using iText Sharp)
+        with flashcard that can be cut out. Cards are generated from CSV file.
 skills:
   webdesign:
     score: 2
   webapplications:
     score: 2
+  print:
+    score: 1
 technologies:
   html:
     score: 3
@@ -44,6 +50,8 @@ technologies:
   mssql:
     score: 2
   winforms:
+    score: 1
+  pdf:
     score: 1
 interests:
   web:
