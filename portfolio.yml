@@ -20,6 +20,9 @@ work:
       details: >
         Worked on application forms with ASP.NET and file uploads
         for documents that were saved to a MSSQL backend.
+    - desc: Setup health monitoring
+      details: >
+        Setup health monitoring for all internal webapplications.
   software:
     - desc: MMORPG fishing bot
       details: My first program created using the BASIC-like AutoItScript
@@ -44,7 +47,7 @@ technologies:
   css:
     score: 2
   asp.net:
-    score: 2
+    score: 3
   c\#:
     score: 3
   mssql:
@@ -52,6 +55,8 @@ technologies:
   winforms:
     score: 1
   pdf:
+    score: 1
+  logging:
     score: 1
 interests:
   web:
