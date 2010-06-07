@@ -23,6 +23,11 @@ work:
     - desc: Setup health monitoring
       details: >
         Setup health monitoring for all internal webapplications.
+    - desc: Implementation of webshop for pharmacy
+      url: drogerie-heggli.ch
+      details: >
+        Implementation of full webshop (except payment processing)
+        with help of senior developer.
   software:
     - desc: MMORPG fishing bot
       details: My first program created using the BASIC-like AutoItScript
@@ -36,16 +41,16 @@ work:
         with flashcard that can be cut out. Cards are generated from CSV file.
 skills:
   webdesign:
-    score: 2
+    score: 3
   webapplications:
-    score: 2
+    score: 3
   print:
     score: 1
 technologies:
   html:
-    score: 3
+    score: 4
   css:
-    score: 2
+    score: 3
   asp.net:
     score: 3
   c\#:
