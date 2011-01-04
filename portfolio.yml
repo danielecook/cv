@@ -39,6 +39,11 @@ work:
       details: >
         Implemented small program that prints a PDF (using iText Sharp)
         with flashcard that can be cut out. Cards are generated from CSV file.
+  other:
+    - desc: Worked in systems department
+      details: >
+        Did various infrastructure work. Setup new servers, did internal
+        support for computer problems and helped creating internal networks.
 skills:
   webdesign:
     score: 3
@@ -63,8 +68,12 @@ technologies:
     score: 1
   logging:
     score: 1
+  networking:
+    score: 1
 interests:
   web:
     score: 5
   email:
+    score: 1
+  infrastructure:
     score: 1
