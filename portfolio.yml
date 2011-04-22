@@ -49,6 +49,11 @@ work:
         Worked in 1st and 2nd level customer support. Educated customers
         to use our Microsoft Dynamics CRM solutions and supported
         ASP.NET CMS ContentXXL for Hyundai Switzerland.
+    - desc: C# course for new apprentices
+      details: >
+        Wrote C# introduction for the new apprentices along
+        with documentation and sample exercises. Had a lot of time
+        to improve my C# knowledge.
 skills:
   webdesign:
     score: 3
@@ -64,7 +69,7 @@ technologies:
   asp.net:
     score: 3
   c\#:
-    score: 3
+    score: 4
   mssql:
     score: 2
   winforms:
