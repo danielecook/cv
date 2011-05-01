@@ -54,13 +54,17 @@ work:
         Wrote C# introduction for the new apprentices along
         with documentation and sample exercises. Had a lot of time
         to improve my C# knowledge.
+    - desc: Small tasks for print applications
+      details: >
+        Learned the ropes of our print solution that was based on xCat,
+        custom XML format and SOAP webservices.
 skills:
   webdesign:
     score: 3
   webapplications:
     score: 3
   print:
-    score: 1
+    score: 3
 technologies:
   html:
     score: 4
@@ -80,6 +84,10 @@ technologies:
     score: 1
   networking:
     score: 1
+  webservice:
+    score: 1
+  xml:
+    score: 2
 interests:
   web:
     score: 5
