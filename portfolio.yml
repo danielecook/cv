@@ -28,6 +28,11 @@ work:
       details: >
         Implementation of full webshop (except payment processing)
         with help of senior developer.
+    - desc: Project work for product platform of sensor company
+      url: sts-ag.ch
+      details: >
+        Serverside and client side work on the web platform.
+        Used ASP.NET and used jQuery on the client side.
   software:
     - desc: MMORPG fishing bot
       details: My first program created using the BASIC-like AutoItScript
@@ -62,7 +67,7 @@ skills:
   webdesign:
     score: 3
   webapplications:
-    score: 3
+    score: 4
   print:
     score: 3
 technologies:
@@ -71,7 +76,7 @@ technologies:
   css:
     score: 3
   asp.net:
-    score: 3
+    score: 4
   c\#:
     score: 4
   mssql:
@@ -88,9 +93,11 @@ technologies:
     score: 1
   xml:
     score: 2
+  javascript:
+    score: 2
 interests:
   web:
-    score: 5
+    score: 6
   email:
     score: 1
   infrastructure:
