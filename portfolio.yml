@@ -33,6 +33,12 @@ work:
       details: >
         Serverside and client side work on the web platform.
         Used ASP.NET and used jQuery on the client side.
+    - desc: Full project for local nursery
+      url: kita-chinderwelt.ch
+      details: >
+        Private project where I did everything from concept creation,
+        to realization and design. Used a ASP.NET MVC alongside with
+        a CMS called Orchard.
   software:
     - desc: MMORPG fishing bot
       details: My first program created using the BASIC-like AutoItScript
@@ -65,20 +71,20 @@ work:
         custom XML format and SOAP webservices.
 skills:
   webdesign:
-    score: 3
+    score: 5
   webapplications:
-    score: 4
+    score: 5
   print:
     score: 3
 technologies:
   html:
-    score: 4
+    score: 5
   css:
-    score: 3
+    score: 5
   asp.net:
     score: 4
   c\#:
-    score: 4
+    score: 5
   mssql:
     score: 2
   winforms:
@@ -94,10 +100,10 @@ technologies:
   xml:
     score: 2
   javascript:
-    score: 2
+    score: 3
 interests:
   web:
-    score: 6
+    score: 7
   email:
     score: 1
   infrastructure:
