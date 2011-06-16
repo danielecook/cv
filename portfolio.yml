@@ -50,6 +50,8 @@ work:
       details: >
         Implemented small program that prints a PDF (using iText Sharp)
         with flashcard that can be cut out. Cards are generated from CSV file.
+    - desc: Custom Excel reports
+      details: Created Excel reports with help of XSL for the Trapeze Group.
   other:
     - desc: Worked in systems department
       details: >
@@ -98,7 +100,9 @@ technologies:
   webservice:
     score: 1
   xml:
-    score: 2
+    score: 4
+  xsl:
+    score: 3
   javascript:
     score: 3
 interests:
