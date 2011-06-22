@@ -39,6 +39,12 @@ work:
         Private project where I did everything from concept creation,
         to realization and design. Used a ASP.NET MVC alongside with
         a CMS called Orchard.
+    - desc: Javascript infographic about parlament
+      url: gruppe-giardino.ch
+      details: >
+        Created a Javascript infographic for a colleague about
+        the parlamentarians of switzerland and their standpoint
+        towards the swiss military. Heavy use of jQuery and SVG.
   software:
     - desc: MMORPG fishing bot
       details: My first program created using the BASIC-like AutoItScript
@@ -73,7 +79,7 @@ work:
         custom XML format and SOAP webservices.
 skills:
   webdesign:
-    score: 5
+    score: 6
   webapplications:
     score: 5
   print:
@@ -104,7 +110,7 @@ technologies:
   xsl:
     score: 3
   javascript:
-    score: 3
+    score: 5
 interests:
   web:
     score: 7
