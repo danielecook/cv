@@ -144,20 +144,20 @@
   \renewcommand{\footrulewidth}{0pt}
   \fancyhf{}}
 % page numbers in footer if more than 1 page
-\newif\if@displaypagenumbers\@displaypagenumberstrue
-\newcommand*{\nopagenumbers}{\@displaypagenumbersfalse}
-\AtEndPreamble{%
-  \AtBeginDocument{%
-    \if@displaypagenumbers%
-      \@ifundefined{r@lastpage}{}{%
-        \ifthenelse{\pageref{lastpage}>1}{%
-          \newlength{\pagenumberwidth}%
-          \settowidth{\pagenumberwidth}{\color{color2}\addressfont\itshape\strut\thepage/\pageref{lastpage}}%
-          \fancypagestyle{plain}{%
-            \fancyfoot[r]{\parbox[b]{\pagenumberwidth}{\color{color2}\pagenumberfont\strut\thepage/\pageref{lastpage}}}}% the parbox is required to ensure alignment with a possible center footer (e.g., as in the casual style)
-          \pagestyle{plain}}{}}%
-      \AtEndDocument{\label{lastpage}}\else\fi}}
-\pagestyle{plain}
+%\newif\if@displaypagenumbers\@displaypagenumberstrue
+%\newcommand*{\nopagenumbers}{\@displaypagenumbersfalse}
+%\AtEndPreamble{%
+%  \AtBeginDocument{%
+%    \if@displaypagenumbers%
+%      \@ifundefined{r@lastpage}{}{%
+%        \ifthenelse{\pageref{lastpage}>1}{%
+%          \newlength{\pagenumberwidth}%
+%          \settowidth{\pagenumberwidth}{\color{color2}\addressfont\%itshape\strut\thepage/\pageref{lastpage}}%
+%          \fancypagestyle{plain}{%
+%            \fancyfoot[r]{\parbox[b]{\pagenumberwidth}{\color{color2%}\pagenumberfont\strut\thepage/\pageref{lastpage}}}}% %the parbox is required to ensure alignment with a %possible center footer (e.g., as in the casual style)
+%          \pagestyle{plain}}{}}%
+%      \AtEndDocument{\label{lastpage}}\else\fi}}
+%\pagestyle{plain}
 
 % reduced list spacing
 % package providing hooks into lists
