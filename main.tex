@@ -16,12 +16,6 @@
 \renewbibmacro*{date+extrayear}{}
 \newcommand*{\bibyear}{}
 
-
-\begin{filecontents}{biblatex-dm.cfg}
-    \DeclareDatamodelFields[type=field, datatype=text, skipout=false]{pmid}
-\end{filecontents}
-
-
 \defbibenvironment{bibliography}
   {\list
      {\iffieldequals{year}{\bibyear}
@@ -39,8 +33,7 @@
   {\item}
  
 
-
-\bibliography{cook.bib}
+\addbibresource{cook.bib}
 
 
 \DeclareFieldFormat
@@ -54,12 +47,15 @@
      {\href{http://dx.doi.org/#1}{\nolinkurl{#1}}}
      {\nolinkurl{#1}}}
 
-\DeclareFieldFormat{url}{\newline\mkbibacro{URL}\addcolon\space\url{#1}}
  \DeclareFieldFormat{pmid}{%
    \mkbibacro{PMID}\addcolon\space
    \ifhyperref
      {\href{http://www.ncbi.nlm.nih.gov/pubmed/#1}{\nolinkurl{#1}}}
      {\nolinkurl{#1}}}
+
+\newbibmacro*{pubmed}{%
+\printfield[pmidformat]{pmid}%
+}
 
 \DeclareBibliographyDriver{article}{%
   \printtext[bold]{\printfield{title}}%
@@ -76,21 +72,15 @@
 \DeclareBibliographyDriver{presentation}{%
   \printtext[bold]{\printfield{title}}%
   \\
-  \printnames{author}%
-  \newunit\newblock
-  \\
   \printfield{publisher}%
-  \newunit
-  \printfield{location}%
-  \newunit
-  \printfield{year}%
+  \printfield{type} --  \printfield{location}%
   \finentry\\}
 
 
 % personal data
 \name{Daniel E.}{Cook}
 \address{2850 N. Sheridan Rd. Apt 409}{Chicago, IL. 60657}
-\phone[fixed]{815-245-4956}
+\phone[fixed]{773-382-0440}
 \email{danielecook@gmail.com}
 \homepage{danielecook.com}                   
 
@@ -107,21 +97,45 @@
 
 \section{Experience}
 
+
+%
+% Andersen Lab
+%
+
+
 \cventry{Apr/2014--Present}{Graduate Student}{Andersen Lab, Northwestern University}{Evanston, IL}{\textit{}}{%
 \begin{itemize}%
 \item Developed bioinformatic pipelines population resequencing analysis of \textit{C. elegans}.
-\item Developed and maintained web-based tools and laboratory website.
+\item Created and have maintained laboratory website.
 \end{itemize}
 }
 
-\cventry{Apr/2014--Present}{Graduate Student}{Andersen Lab, Northwestern University}{Evanston, IL}{\textit{Abschlussnote 5.3}}{%
+%
+% Ober Lab
+%
+
+
+\cventry{Apr/2014--Present}{Research Assistant}{Ober Lab, University of Chicago}{Chicago, IL}{}{%
 \begin{itemize}%
-\item Entwicklung Webapplikationen mit ASP.NET MVC im PIM Bereich
-\item Entwicklung Architektur für automatisierte Produktkataloge der Druckvorstufe mit C\#
-\item Produktentwicklung in SCRUM Team für PIM Web Plattform (Smartsite EPM)
-\item Aufwandschätzungen und Machbarkeitsstudien für Projekte
+\item Assisted with development of databases for phenotypic and genotypic data.
+\item Helped disclose carrier status to individuals.
 \end{itemize}
 }
+
+%
+% Murray Lab
+%
+
+\cventry{Apr/2014--Present}{Research Assistant}{Ober Lab, University of Chicago}{Iowa City, IL}{}{%
+\begin{itemize}%
+\item Wrote and published statistical, data-management, and graphing programs.
+\item Conducted geographic analysis of Iowa newborn screen data.
+\item Collected Human Placental tissue for genetic, epigenetic, and expression studies.
+\end{itemize}
+}
+
+
+
 
 
 \section{Skills}
@@ -155,7 +169,7 @@
 \section{Presentations}
 \begin{refsection}
 \nocite{IWM15}
-\printbibliography[heading=none,type=presentation,sorting=nyt]
+\printbibliography[heading=none,type=presentation]
 \end{refsection}
 
 \end{document}
